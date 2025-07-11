@@ -6,6 +6,10 @@
   font-style: normal;
 }
 /* shared styles */
+
+
+
+
 .text-primary{
     color: rgba(78, 71, 255, 1);
 }
@@ -13,19 +17,30 @@
 .btn-primary{
     background-color: rgba(78, 71, 255, 1);
     font-weight: bold;
+    font-size: 16px;
     color: white;
     padding: 11px 36px;
     border-radius: 5px;
+    border: none;
 
 
 }
 
 
 /* nav styles */
+
+
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 698px;
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 150px;
     
     
 }
@@ -35,3 +50,69 @@ nav{
     font-size: 34px;
     color: rgba(78, 71, 255, 1);
 }
+
+.nav-button{
+    align-items: center;
+
+}
+
+/* banner styles */
+.banner{
+    
+    margin: 150px 267px;
+    
+}
+
+.banner-description{
+    font-weight: bold;
+    font-size: 65px;
+    align-items: center;
+}
+.banner-button{
+    align-items: center;
+
+}
+
+/* Action Section */
+.action{
+    display: flex;
+    width: 1140px;
+    height: 328px;
+    margin: 195px 150px 150px 87px;
+    justify-content: space-between;
+}
+.a-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 30px;
+}
+.action-header{
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+
+}
+.action-description{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+/* Productive Users Section */
+.productive{
+    background-color: rgba(78, 71, 255, 0.1) ;
+    border-radius:20px ;
+    width: 1140px ;
+    height:306px ;
+    
+    border: none;
+    margin: 37px 150px 150px 137px;
+}
+
+
+
+
+
+
+
+
